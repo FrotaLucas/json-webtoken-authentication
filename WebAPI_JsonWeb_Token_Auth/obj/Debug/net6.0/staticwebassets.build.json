@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "sDWt5b63qoXbhgk01nvrcrIfJ8KqOjHt0DIiYYY/yMw=",
+  "Source": "WebAPI_JsonWeb_Token_Auth",
+  "BasePath": "_content/WebAPI_JsonWeb_Token_Auth",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
