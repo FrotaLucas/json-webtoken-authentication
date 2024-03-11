@@ -16,7 +16,7 @@ namespace WebAPI_JsonWeb_Token_Auth.Controllers
         public ActionResult<Response<string>> GetUsuario()
         {
             Response<string> response = new Response<string>();
-            response.Mensagem = "Acessei";
+            response.Mensagem = "Liberado acesso com sucesso";
 
             return Ok(response);
         }

@@ -31,7 +31,7 @@ builder.Services.AddSwaggerGen(options =>
 {
     options.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
     {
-        Description = "Standar Authorization header using the Bearer scheme (\"bearer {token}\")",
+        Description = "aqui temos Standard Authorization header using the Bearer scheme (\"bearer {token}\")",
         In = ParameterLocation.Header,
         Name = "Authorization",
         Type = SecuritySchemeType.ApiKey
@@ -44,7 +44,8 @@ builder.Services.AddSwaggerGen(options =>
 });
 
 
-//Parte de funcionalidade do botao
+//Parte de funcionalidade do botao.Como usar: Copiar o token que vem pelo payload da api Login e colar
+//no campo value dentro do botao Authorize. O Servidor avalia se o client tem permissao para acessar aquela informacao. 
 
 // DUVIDA
 //a senha que coloquei fixa dentro do appsetting esta sendo lida aqui.
