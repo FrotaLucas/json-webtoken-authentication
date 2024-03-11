@@ -66,3 +66,10 @@ C:\Users\lucas\Projects Visual Studio\WebAPI_JsonWeb_Token_Auth\WebAPI_JsonWeb_T
 C:\Users\lucas\Projects Visual Studio\WebAPI_JsonWeb_Token_Auth\WebAPI_JsonWeb_Token_Auth\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\lucas\Projects Visual Studio\WebAPI_JsonWeb_Token_Auth\WebAPI_JsonWeb_Token_Auth\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\lucas\Projects Visual Studio\WebAPI_JsonWeb_Token_Auth\WebAPI_JsonWeb_Token_Auth\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\lucas\Projects Visual Studio\WebAPI_JsonWeb_Token_Auth\WebAPI_JsonWeb_Token_Auth\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\lucas\Projects Visual Studio\WebAPI_JsonWeb_Token_Auth\WebAPI_JsonWeb_Token_Auth\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\lucas\Projects Visual Studio\WebAPI_JsonWeb_Token_Auth\WebAPI_JsonWeb_Token_Auth\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\lucas\Projects Visual Studio\WebAPI_JsonWeb_Token_Auth\WebAPI_JsonWeb_Token_Auth\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\lucas\Projects Visual Studio\WebAPI_JsonWeb_Token_Auth\WebAPI_JsonWeb_Token_Auth\bin\Debug\net6.0\Scrutor.dll
+C:\Users\lucas\Projects Visual Studio\WebAPI_JsonWeb_Token_Auth\WebAPI_JsonWeb_Token_Auth\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\lucas\Projects Visual Studio\WebAPI_JsonWeb_Token_Auth\WebAPI_JsonWeb_Token_Auth\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.dll

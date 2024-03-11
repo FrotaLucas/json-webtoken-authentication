@@ -43,7 +43,6 @@ namespace WebAPI_JsonWeb_Token_Auth.Services.AuthService
                     Cargo = usuarioRegistro.Cargo,
                     SenhaHash = senhaHash,
                     SenhaSalt = senhaSalt
-
                 };
 
 
@@ -104,6 +103,7 @@ namespace WebAPI_JsonWeb_Token_Auth.Services.AuthService
                 resposta.Status = false;
                 
             }
+            //esse retorno eh uma string, mas o formato que aparece eh como se fosse um json
                 return resposta;
         }
         public bool VerificaSeEmaileUsuarioJaExiste(UsuarioCriacaoDto usuarioRegistro)
