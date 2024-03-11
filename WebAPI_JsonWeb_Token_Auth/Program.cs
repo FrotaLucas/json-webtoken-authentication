@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using WebAPI_JsonWeb_Token_Auth.DataContext;
+using WebAPI_JsonWeb_Token_Auth.Services.AuthService;
+using WebAPI_JsonWeb_Token_Auth.Services.SenhaSerice;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,10 +12,15 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScoped<IAuthInterface, AuthService>();
+builder.Services.AddScoped<ISenhaInterface, SenhaService>();
+
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+
 
 var app = builder.Build();
 
