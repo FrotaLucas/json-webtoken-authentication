@@ -22,6 +22,24 @@ namespace WebAPI_JsonWeb_Token_Auth.Services.SenhaSerice
             {
                 senhaSalt = hmac.Key;
                 senhaHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(senha));
+
+
+                //EXPLICACAO TEORICA
+                //senhaSalt e senhaHash sao arrays de bites que cada elemento da senha ocupa na memoria
+                
+                //printa esse mini tamanho de memoria em base decimal
+                Console.WriteLine("SenhaSalt: "+ senhaSalt[3]);
+                Console.WriteLine("SenhaHash: "+ senhaHash[3]);
+                //printa esse mini tamanho de memoria em base hexadecimal
+                Console.WriteLine("SenhaSalt: " + senhaSalt[3].ToString("X2"));
+
+                //pega todos os  valores em bites e transforma no que equivale em Exadecimal.No final temos a senhaSalt
+                //completa que ta no banco dados.
+                Console.WriteLine("SenhaSalt: " + string.Join("", senhaSalt.Select(b => b.ToString("X2"))));
+
+                //nao significa nada.Printa System.Byte[]
+                Console.WriteLine("SenhaSalt: "+ senhaSalt);
+
             }
 
         }
