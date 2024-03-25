@@ -35,7 +35,7 @@ namespace WebAPI_JsonWeb_Token_Auth.Services.AuthService
 
                 //Duvida senhaHash e senhaSalt sao vetores ? pq essa notacao [] ??
                 _senhaInterface.CriarSenhaHash(usuarioRegistro.Senha, out byte[] senhaHash, out byte[] senhaSalt);
-
+                Console.WriteLine("senhasalt after calling:" + senhaSalt);
                 UsuarioModel novoUsuario = new UsuarioModel()
                 {
                     Usuario = usuarioRegistro.Usuario,
@@ -46,7 +46,8 @@ namespace WebAPI_JsonWeb_Token_Auth.Services.AuthService
                 };
 
 
-                _context.Add(novoUsuario);
+                //_context.Add(novoUsuario);
+                _context.Usuario.Add(novoUsuario);
                 await _context.SaveChangesAsync();
 
                 respostaServico.Mensagem = "Usuário cadastrado com sucesso";

@@ -4846,11 +4846,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas\\Projects Visual Studio\\WebAPI_JsonWeb_Token_Auth\\WebAPI_JsonWeb_Token_Auth\\WebAPI_JsonWeb_Token_Auth.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\Projects_Visual_Studio\\WebAPI_JsonWeb_Token_Auth\\WebAPI_JsonWeb_Token_Auth\\WebAPI_JsonWeb_Token_Auth.csproj",
       "projectName": "WebAPI_JsonWeb_Token_Auth",
-      "projectPath": "C:\\Users\\lucas\\Projects Visual Studio\\WebAPI_JsonWeb_Token_Auth\\WebAPI_JsonWeb_Token_Auth\\WebAPI_JsonWeb_Token_Auth.csproj",
+      "projectPath": "C:\\Users\\lucas\\Projects_Visual_Studio\\WebAPI_JsonWeb_Token_Auth\\WebAPI_JsonWeb_Token_Auth\\WebAPI_JsonWeb_Token_Auth.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas\\Projects Visual Studio\\WebAPI_JsonWeb_Token_Auth\\WebAPI_JsonWeb_Token_Auth\\obj\\",
+      "outputPath": "C:\\Users\\lucas\\Projects_Visual_Studio\\WebAPI_JsonWeb_Token_Auth\\WebAPI_JsonWeb_Token_Auth\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",

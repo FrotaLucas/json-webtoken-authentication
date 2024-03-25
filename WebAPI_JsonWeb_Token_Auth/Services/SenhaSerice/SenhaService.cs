@@ -26,10 +26,10 @@ namespace WebAPI_JsonWeb_Token_Auth.Services.SenhaSerice
 
                 //EXPLICACAO TEORICA
                 //senhaSalt e senhaHash sao arrays de bites que cada elemento da senha ocupa na memoria
-                
+
                 //printa esse mini tamanho de memoria em base decimal
-                Console.WriteLine("SenhaSalt: "+ senhaSalt[3]);
-                Console.WriteLine("SenhaHash: "+ senhaHash[3]);
+                Console.WriteLine("SenhaSalt: " + senhaSalt[3]);
+                Console.WriteLine("SenhaHash: " + senhaHash[3]);
                 //printa esse mini tamanho de memoria em base hexadecimal
                 Console.WriteLine("SenhaSalt: " + senhaSalt[3].ToString("X2"));
 
@@ -38,7 +38,7 @@ namespace WebAPI_JsonWeb_Token_Auth.Services.SenhaSerice
                 Console.WriteLine("SenhaSalt: " + string.Join("", senhaSalt.Select(b => b.ToString("X2"))));
 
                 //nao significa nada.Printa System.Byte[]
-                Console.WriteLine("SenhaSalt: "+ senhaSalt);
+                //Console.WriteLine("SenhaSalt: " + senhaSalt);
 
             }
 
